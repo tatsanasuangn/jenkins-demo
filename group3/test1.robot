@@ -11,7 +11,7 @@ Open Angular Browser
 
 Select file
     [Arguments]     ${filename}
-    Choose File     xpath://div/div[2]/div[1]/input[2]  ${CURDIR}/${filename}
+    Choose File     xpath://div/div[2]/div[1]/input[2]  ${CURDIR}\\${filename}
 
 Check file
     Page Should Contain Element     xpath://*[@id="ng-app"]/body/div/div[2]/div[2]/table/tbody/tr    limit=3
