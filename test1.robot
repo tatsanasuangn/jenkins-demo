@@ -30,6 +30,7 @@ Upload file to Angular file upload
     Select file     image2.jpg
     Select file     image3.jpg
     Check file
+    
     Upload file     1
     Upload file     2      
     Upload file     3
